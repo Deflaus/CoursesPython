@@ -73,33 +73,33 @@ bird_list.append(chicken1)
 chicken2 = Birds(4, 'Курица', 'Ко-ко')
 bird_list.append(chicken2)
 
-goat1 = Wool_animals(30, 'Коза', 'Мэээ')
+goat1 = Milk_animals(30, 'Коза', 'Мэээ')
 milk_animal_list.append(goat1)
 
-goat2 = Wool_animals(30, 'Коза', 'Мэээ')
+goat2 = Milk_animals(30, 'Коза', 'Мэээ')
 milk_animal_list.append(goat2)
 
 duck = Birds(6, 'Утка', 'Кря-кря')
 bird_list.append(duck)
 
 for bird in bird_list:
-    Animals.feed(bird)
-    Birds.get_eggs(bird)
-    Animals.say(bird)
+    bird.feed()
+    bird.get_eggs()
+    bird.say()
 
     animal_list.append(bird)
 
 for milk in milk_animal_list:
-    Animals.feed(milk)
-    Milk_animals.milk(milk)
-    Animals.say(milk)
+    milk.feed()
+    milk.milk()
+    milk.say()
 
     animal_list.append(milk)
 
 for wool in wool_animal_list:
-    Animals.feed(wool)
-    Wool_animals.cut(wool)
-    Animals.say(wool)
+    wool.feed()
+    wool.cut()
+    wool.say()
 
     animal_list.append(wool)
 

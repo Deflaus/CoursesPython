@@ -48,7 +48,6 @@ def get_shop_list_by_dishes(dishes, person_count):
                 shop_dict[ingridients_dict['ingridient_name']]['quantity'] += ingridients_dict['quantity'] * person_count
     return shop_dict
 
-
 def main():
     print('Решение задачи №1')
     print(dict_of_dishes())

@@ -1,0 +1,1 @@
+{'date_info': datetime.datetime(2020, 9, 4, 18, 56, 21, 477008), 'function name': 'somefunction', 'arguments': (1, 2)}
